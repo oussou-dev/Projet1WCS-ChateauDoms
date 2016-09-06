@@ -20,3 +20,21 @@
 ## Page Contact :
   - Intégration google map
   - Formulaire de contact
+
+## Process Git
+  - git status
+  - git add
+  - git commit -m "your comment"
+  - git pull origin master
+  - git push origin master
+
+#### En cas de conflit lors du "pull"
+  - regarder les fichiers impactés
+  - retourner dans l'éditeur corriger les conflits
+    - présence de balise "HEAD >>>>>>>"
+  - git status
+  - git add
+  - git commit -m "fix merge"
+  - git pull origin master  
+    => si a nouveau un bug, recommencer la procédure ou me demander, il y a des possibilité de stash ou autre
+  - git push origin master
