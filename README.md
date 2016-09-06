@@ -4,6 +4,12 @@
   - materialize : http://materializecss.com/getting-started.html
   - url de test : [ici](https://htmlpreview.github.io/?https://raw.githubusercontent.com/sbstnplcn/Projet1WCS-ChateauDoms/master/index.html)
 
+### Fonctionnement en local :
+  - Lancer serveur python (dans le projet) pour fonctionnement de toute les libs dans un nouveau terminal
+    - python -m SimpleHTTPServer
+    - ctrl+C pour arreter le serveur
+    - accès au serveur à l'adresse http://localhost:8000/
+
 ## 3 pages :
 
   - 1 home page
