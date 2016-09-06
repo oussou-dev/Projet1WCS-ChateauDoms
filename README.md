@@ -1,8 +1,8 @@
 # Projet1WCS-ChateauDoms
 
 ## Stack
-  materialize : http://materializecss.com/getting-started.html
-  url de test : https://htmlpreview.github.io/?https://raw.githubusercontent.com/sbstnplcn/Projet1WCS-ChateauDoms/master/index.html
+  - materialize : http://materializecss.com/getting-started.html
+  - url de test :[ici](https://htmlpreview.github.io/?https://raw.githubusercontent.com/sbstnplcn/Projet1WCS-ChateauDoms/master/index.html)
 
 ## 3 pages :
 
