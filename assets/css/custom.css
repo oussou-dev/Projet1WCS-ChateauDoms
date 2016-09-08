@@ -2,3 +2,25 @@
   width: 100%;
   min-height: 80vh;
 }
+.card img{
+  max-height: 300px;
+  width: auto;
+}
+.card-action{
+  float: right;
+}
+#modal1 .card-image{
+  margin-top: 100%;
+}
+.card .row {
+  padding: 20px;
+}
+.card {
+    background-color: #f7f7f7;
+}
+h6 {
+    font-size: 1.3rem;
+}
+.header{
+      margin-top: 25%;
+}

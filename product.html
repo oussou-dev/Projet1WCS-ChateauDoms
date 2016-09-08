@@ -13,6 +13,7 @@
   <script src="assets/js/w3data.js"></script>
 </head>
 <body>
+
   <div w3-include-html=".header.html"></div>
 
 
@@ -20,94 +21,331 @@
     <div class="section no-pad-bot">
       <div class="container">
         <br><br>
-        <h1 class="header center teal-text text-lighten-2">Nos Produits</h1>
-        <div class="row center">
+        <h1 class="header center teal-text text-lighten-2">Notre gamme de vin</h1>
+        <!-- <div class="row center">
           <h5 class="header col s12 light">A modern responsive front-end framework based on Material Design</h5>
-        </div>
+        </div> -->
         <div class="row center">
-          <a href="http://materializecss.com/getting-started.html" id="download-button" class="btn-large waves-effect waves-light teal lighten-1">Get Started</a>
+          <a href="#product" class="btn-large waves-effect waves-light teal lighten-1">Découvrir les produits</a>
         </div>
         <br><br>
 
       </div>
     </div>
-    <div class="parallax"><img src="assets/images/background1.jpg" alt="Unsplashed background img 1"></div>
+    <div class="parallax"><img src="assets/images/fond-produit.jpeg" alt="Unsplashed background img 1"></div>
   </div>
 
 
-  <div class="container">
-    <div class="section">
-
-      <!--   Icon Section   -->
-      <div class="row">
-        <div class="col s12 m4">
-          <div class="icon-block">
-            <h2 class="center brown-text"><i class="material-icons">flash_on</i></h2>
-            <h5 class="center">Speeds up development</h5>
-
-            <p class="light">We did most of the heavy lifting for you to provide a default stylings that incorporate our custom components. Additionally, we refined animations and transitions to provide a smoother experience for developers.</p>
-          </div>
-        </div>
-
-        <div class="col s12 m4">
-          <div class="icon-block">
-            <h2 class="center brown-text"><i class="material-icons">group</i></h2>
-            <h5 class="center">User Experience Focused</h5>
-
-            <p class="light">By utilizing elements and principles of Material Design, we were able to create a framework that incorporates components and animations that provide more feedback to users. Additionally, a single underlying responsive system across all platforms allow for a more unified user experience.</p>
-          </div>
-        </div>
-
-        <div class="col s12 m4">
-          <div class="icon-block">
-            <h2 class="center brown-text"><i class="material-icons">settings</i></h2>
-            <h5 class="center">Easy to work with</h5>
-
-            <p class="light">We have provided detailed documentation as well as specific code examples to help new users get started. We are also always open to feedback and can answer any questions a user may have about Materialize.</p>
+  <div class="container" id="product">
+    <div class="row">
+      <div class="col s12">
+        <div class="card blue-grey darken-1">
+          <div class="card-content white-text">
+            <span class="card-title">Découvrez notre gamme de vin</span>
+            <p>Le château Doms dispose d’une gamme de cinq vins différents adaptés aux différentes occasions de dégustation. Chaque vin a un profil sensoriel unique et des caractéristiques propres. A la dégustation, vous noterez qu’ils sont tous marqués par la touche de féminité et le savoir-faire des femmes du château Doms.</p>
           </div>
         </div>
       </div>
-
     </div>
-  </div>
 
 
-  <div class="parallax-container valign-wrapper">
-    <div class="section no-pad-bot">
-      <div class="container">
-        <div class="row center">
-          <h5 class="header col s12 light">A modern responsive front-end framework based on Material Design</h5>
-        </div>
-      </div>
-    </div>
-    <div class="parallax"><img src="assets/images/background2.jpg" alt="Unsplashed background img 2"></div>
-  </div>
-
-  <div class="container">
     <div class="section">
 
       <div class="row">
-        <div class="col s12 center">
-          <h3><i class="mdi-content-send brown-text"></i></h3>
-          <h4>Contact Us</h4>
-          <p class="left-align light">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam scelerisque id nunc nec volutpat. Etiam pellentesque tristique arcu, non consequat magna fermentum ac. Cras ut ultricies eros. Maecenas eros justo, ullamcorper a sapien id, viverra ultrices eros. Morbi sem neque, posuere et pretium eget, bibendum sollicitudin lacus. Aliquam eleifend sollicitudin diam, eu mattis nisl maximus sed. Nulla imperdiet semper molestie. Morbi massa odio, condimentum sed ipsum ac, gravida ultrices erat. Nullam eget dignissim mauris, non tristique erat. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae;</p>
+        <div class="col s3">
+          <div class="collection" id="filter">
+            <a  class="collection-item" id="showAll">Tous</a>
+            <a  class="collection-item" id="showRouge">Vin Rouge</a>
+            <a  class="collection-item" id="showRose">Vin Rosé</a>
+            <a  class="collection-item" id="showBlanc">Vin Blanc</a>
+          </div>
         </div>
-      </div>
 
+        <div class="col s9" id="wine">
+          <!-- Vin 1-->
+          <div class="col s12 m12" id="rouge1">
+            <div class="card ">
+              <div class="row">
+                <div class="col s2 offset-s1">
+                  <div class="card-image">
+                      <img src="assets/images/vin1.jpg">
+                  </div>
+                </div>
+               <div class="col s7 offset-s1">
+                 <div class="card-title">Le Graves Rouge</div>
+                 <div class="card-content">
+                   <h6>Guides et récompenses</h6>
+                   <p>
+                     Guide Hachette des vins 2009.
+                     <br />
+                     Médaille d'or - Concours de Bordeaux 2008.
+                   </p>
+                 </div>
+                 <div class="card-action">
+                   <a class="modal-trigger" href="#modal1">En Savoir Plus</a>
+                 </div>
+               </div>
+              </div>
+            </div>
+          </div>
+          <div id="modal1" class="modal">
+            <div class="modal-content">
+              <div class="card  ">
+                <div class="col s2 offset-s1">
+                  <div class="card-image">
+                      <img src="assets/images/vin1.jpg">
+                  </div>
+                </div>
+                <div class="col s7 offset-s1">
+                  <div class="card-title">Le Graves Rouge</div>
+                  <div class="card-content">
+                    <h5>Terroir</h5>
+                    <p>Les vignes sont cultivées sur un sol de graves à sous-sol sablo-argileux.
+                      L’âge moyen des vignes est de 35 ans. Ce vin est un assemblage de Merlot (70%) et de Cabernet-Sauvignon.</p>
+                    <h5>Dégustation</h5>
+                    <p>D’un rouge profond aux reflets violets, ce vin offre un nez complexe de fruits rouges
+                      (cassis) et d’épices. L’attaque est souple. Il est rond au palais avec des tanins enrobés.</p>
+                    <h5>Accord mets vin</h5>
+                    <p>Entrecôte aux sarments, fromages fins, canelés et desserts aux fruits rouges.</p>
+                    <h5>Service</h5>
+                    <p>18°C. Ouvrir la bouteille deux heures à l’avance ou carafer le vin.</p>
+                    <h5>Garde</h5>
+                    <p>Le millésime 2005, très concentré pourra se garder 8 ans.</p>
+                  </div>
+                  <div class="card-action">
+                    <a class="" href="#!">Acheter</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Vin 2-->
+          <div class="col s12 m12" id="rouge2">
+            <div class="card  ">
+              <div class="row">
+                <div class="col s2 offset-s1 push-s8">
+                  <div class="card-image">
+                      <img src="assets/images/vin2.jpg">
+                  </div>
+                </div>
+               <div class="col s7 offset-s1 pull-s3">
+                 <div class="card-title">Le Graves Rouge Cuvée Amélie</div>
+                 <div class="card-content">
+                   <p>La cuvée Amélie est élevée en fûts de chêne. Son nom est aussi celui de la première génération de femmes qui s’est installée sur le domaine en 1933.</p>
+                 </div>
+                 <div class="card-action">
+                   <a class="modal-trigger" href="#modal1">En Savoir Plus</a>
+                 </div>
+               </div>
+              </div>
+            </div>
+          </div>
+          <div id="modal1" class="modal">
+            <div class="modal-content">
+              <div class="card  ">
+                <div class="col s2 offset-s1">
+                  <div class="card-image">
+                      <img src="assets/images/vin2.jpg">
+                  </div>
+                </div>
+                <div class="col s7 offset-s1">
+                  <div class="card-title">Le Graves Rouge Cuvée Amélie</div>
+                  <div class="card-content">
+                    <h5>Terroir</h5>
+                    <p>Les vignes sont cultivées sur un sol de graves à sous-sol sablo-argileux. La cuvée Amélie est issue des plus vieilles parcelles du vignoble. Ce vin est un assemblage de Merlot (70%) et de Cabernet-Sauvignon.</p>
+                    <h5>Dégustation</h5>
+                    <p>La robe de ce vin est d’un rubis profond aux reflets grenat. Il présente un bouquet intense aux fraîches notes fruitées et fumées. L’attaque souple laisse place à une belle rondeur et une grande sucrosité en bouche, avec des tanins fondus.</p>
+                    <h5>Accord mets vin</h5>
+                    <p>Lamproie à la Bordelaise, civet de sanglier sauce grand veneur, agneau rôti, fraises au vin, desserts au chocolat.</p>
+                    <h5>Service</h5>
+                    <p>18°C. Ouvrir la bouteille deux heures à l’avance ou la carafer.</p>
+                    <h5>Garde</h5>
+                    <p>Ce vin de garde peut être élevé en bouteilles 10 ans.</p>
+                  </div>
+                  <div class="card-action">
+                    <a class="" href="#!">Acheter</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Vin 3-->
+          <div class="col s12 m12" id="blanc">
+            <div class="card  ">
+              <div class="row">
+                <div class="col s2 offset-s1">
+                  <div class="card-image">
+                      <img src="assets/images/vin3.jpg">
+                  </div>
+                </div>
+               <div class="col s7 offset-s1">
+                 <div class="card-title">Le Graves Blanc</div>
+                 <div class="card-content">
+                   <h6>Guides et récompenses</h6>
+                   <p>
+                     Guide Hachette des vins 2009.
+                     <br />
+                     Vinalies 2008.
+                   </p>
+                 </div>
+                 <div class="card-action">
+                   <a class="modal-trigger" href="#modal1">En Savoir Plus</a>
+                 </div>
+               </div>
+              </div>
+            </div>
+          </div>
+          <div id="modal1" class="modal">
+            <div class="modal-content">
+              <div class="card  ">
+                <div class="col s2 offset-s1">
+                  <div class="card-image">
+                      <img src="assets/images/vin3.jpg">
+                  </div>
+                </div>
+                <div class="col s7 offset-s1">
+                  <div class="card-title">Le Graves Blanc</div>
+                  <div class="card-content">
+                    <h5>Terroir</h5>
+                    <p>Les vignes sont cultivées sur un sol de graves à sous-sol sablo-argileux. L’âge moyen des vignes est de 45 ans. Ce vin est un assemblage de Sémillon (60%) et de Sauvignon.</p>
+                    <h5>Dégustation</h5>
+                    <p>une belle robe jaune vif aux reflets verts. Floral et fruité au nez, ce Graves Blanc séduit par son gras, sa fraîcheur et sa grande longueur en bouche.</p>
+                    <h5>Accord mets vin</h5>
+                    <p>À l’apéritif ou en accompagnement d’huîtres et de poissons fins. Il est étonnant avec un fromage de chèvre (Saint Maur de Touraine).</p>
+                    <h5>Service</h5>
+                    <p>7-9°C.</p>
+                    <h5>Garde</h5>
+                    <p>ce vin déjà prêt à boire tendra vers des notes de fruits confits et d’abricot sec si vous le garder 4 ans.</p>
+                  </div>
+                  <div class="card-action">
+                    <a class="" href="#!">Acheter</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Vin 5-->
+          <div class="col s12 m12" id="rose">
+            <div class="card ">
+              <div class="row">
+                <div class="col s2 offset-s1 push-s8">
+                  <div class="card-image">
+                      <img src="assets/images/vin5.jpg">
+                  </div>
+                </div>
+               <div class="col s7 offset-s1 pull-s3">
+                 <div class="card-title">Le Rosé de Doms</div>
+                 <div class="card-content">
+                   <p>Le Rosé de Doms est issu de la pressée de raisin de Merlot et de Cabernet Sauvignon.</p>
+                 </div>
+                 <div class="card-action">
+                   <a class="modal-trigger" href="#modal1">En Savoir Plus</a>
+                 </div>
+               </div>
+              </div>
+            </div>
+          </div>
+          <div id="modal1" class="modal">
+            <div class="modal-content">
+              <div class="card ">
+                <div class="col s2 offset-s1">
+                  <div class="card-image">
+                      <img src="assets/images/vin5.jpg">
+                  </div>
+                </div>
+                <div class="col s7 offset-s1">
+                  <div class="card-title">Le Rosé de Doms</div>
+                  <div class="card-content">
+                    <h5>Terroir</h5>
+                    <p>Les vignes sont cultivées sur les terrasses alluviales de la Garonne sur un sol argileux. Ce vin est issu de l’assemblage des cépages Merlot et Cabernet-Sauvignon.</p>
+                    <h5>Dégustation</h5>
+                    <p>D'une intense couleur groseille aux reflets orangés, ce vin fruité et floral associe finesse et fraîcheur.</p>
+                    <h5>Accord mets vin</h5>
+                    <p>À l’apéritif avec de la tapenade, ou en accompagnement de grillades, salades et plats méditerranéens.</p>
+                    <h5>Service</h5>
+                    <p>7°C</p>
+                    <h5>Garde</h5>
+                    <p>À boire de suite pour un maximum de fraîcheur.</p>
+                  </div>
+                  <div class="card-action">
+                    <a class="" href="#!">Acheter</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Vin 4-->
+          <div class="col s12 m12" id="rouge3">
+            <div class="card ">
+              <div class="row">
+                <div class="col s2 offset-s1 ">
+                  <div class="card-image">
+                      <img src="assets/images/vin4.jpg">
+                  </div>
+                </div>
+               <div class="col s7 offset-s1 ">
+                 <div class="card-title">Le Bordeaux Rouge</div>
+                 <div class="card-content">
+                   <h6>Guides et récompenses</h6>
+                   <p>
+                     Médaille d'argent - Concours de Bordeaux 2008
+                   </p>
+                 </div>
+                 <div class="card-action">
+                   <a class="modal-trigger" href="#modal1">En Savoir Plus</a>
+                 </div>
+               </div>
+              </div>
+            </div>
+          </div>
+          <div id="modal1" class="modal">
+            <div class="modal-content">
+              <div class="card ">
+                <div class="col s2 offset-s1">
+                  <div class="card-image">
+                      <img src="assets/images/vin4.jpg">
+                  </div>
+                </div>
+                <div class="col s7 offset-s1">
+                  <div class="card-title">Le Bordeaux Rouge</div>
+                  <div class="card-content">
+                    <h5>Terroir</h5>
+                    <p>Les vignes sont cultivées sur les terrasses alluviales de la Garonne sur un sol argileux. Les vignes sont âgées de 40 ans. Ce vin gouleyant est un monocépage de Merlot.</p>
+                    <h5>Dégustation</h5>
+                    <p>D’un rouge brillant aux reflets violets, et d’un nez intense de fruits rouges ce vin de plaisir est tout en souplesse et en douceur.</p>
+                    <h5>Accord mets vin</h5>
+                    <p>À l’apéritif ou en accompagnement de grillades, salades, association sucrées salées ou desserts aux fruits.</p>
+                    <h5>Service</h5>
+                    <p>18°C.</p>
+                    <h5>Garde</h5>
+                    <p>À boire dans les 2 ans pour un maximum de fruité.</p>
+                  </div>
+                  <div class="card-action">
+                    <a class="" href="#!">Acheter</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+
+
+
+        <!-- <div class="col s2">
+          menu droite
+        </div> -->
+
+      </div>
     </div>
   </div>
+</div>
 
 
-  <div class="parallax-container valign-wrapper">
-    <div class="section no-pad-bot">
-      <div class="container">
-        <div class="row center">
-          <h5 class="header col s12 light">A modern responsive front-end framework based on Material Design</h5>
-        </div>
-      </div>
-    </div>
-    <div class="parallax"><img src="assets/images/background3.jpg" alt="Unsplashed background img 3"></div>
-  </div>
 
 <div w3-include-html=".footer.html"></div>
 
@@ -116,6 +354,7 @@
   <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
   <script src="assets/js/materialize.js"></script>
   <script src="assets/js/init.js"></script>
+  <script src="assets/js/app.js"></script>
 
   <script>
     w3IncludeHTML();
