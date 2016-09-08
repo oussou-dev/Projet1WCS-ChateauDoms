@@ -36,10 +36,18 @@ h6 {
     background-color: #b71c1c;
     color: #eafaf9;
 }
-h1 .red-text.text-darken-4 {
-    color: #b71c1c !important;
+.red-text.text-darken-4 {
+    color: #B71C1C !important;
     text-shadow: 1px 1px 1px white;
 }
 .modal {
     width: 70%;
+}
+.img-logo{
+    max-width: 75%;
+    height: auto;
+    margin-top: 7.5px;
+}
+nav .brand-logo {
+    width: 25%;
 }
