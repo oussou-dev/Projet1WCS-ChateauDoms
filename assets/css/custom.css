@@ -4,13 +4,12 @@
 }
 .card img{
   max-height: 300px;
-  width: auto;
+  width: auto !important;
 }
-.card-action{
-  float: right;
-}
-#modal1 .card-image{
-  margin-top: 100%;
+@media (min-width: 768px){
+  #modal1 .card-image{
+    margin-top: 100%;
+  }
 }
 .card .row {
   padding: 20px;
@@ -23,4 +22,24 @@ h6 {
 }
 .header{
       margin-top: 25%;
+}
+@media (max-width: 768px){
+  .card img {
+    max-width: 20%;
+    margin: 0 0 10% 33%;
+  }
+}
+.card .card-action a:not(.btn):not(.btn-large):not(.btn-floating) {
+    color: #b71c1c;
+}
+.collection .collection-item.active {
+    background-color: #b71c1c;
+    color: #eafaf9;
+}
+h1 .red-text.text-darken-4 {
+    color: #b71c1c !important;
+    text-shadow: 1px 1px 1px white;
+}
+.modal {
+    width: 70%;
 }
