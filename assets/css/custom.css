@@ -76,3 +76,9 @@ nav .brand-logo {
 .card .card-action a:not(.btn):not(.btn-large):not(.btn-floating):hover {
     color: #671010;
 }
+.space20{
+  margin-bottom: 20px;
+}
+.space-20{
+  margin-top: -20px;
+}
