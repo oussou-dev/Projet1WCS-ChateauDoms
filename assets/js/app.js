@@ -41,9 +41,7 @@ $(document).ready(function() {
     });
 
 
-
-//Scroll to top
-	//Check to see if the window is top if not then display button
+//Display button scroll to top
 	$(window).scroll(function(){
 		if ($(this).scrollTop() > 100) {
 			$('.scrollToTop').fadeIn();
@@ -51,9 +49,6 @@ $(document).ready(function() {
 			$('.scrollToTop').fadeOut();
 		}
 	});
-
-
-
 
 
 });
