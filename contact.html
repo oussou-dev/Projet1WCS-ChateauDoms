@@ -51,15 +51,24 @@
 
     <div class="card ">
       <div class="row">
-        <div class="col s12">
+        <div class="col s6">
           <div class="card-image">
               <img src="assets/images/contact.jpg">
           </div>
         </div>
+        <div class="row">
+          <div class="col s6">
+            <div class="card-panel red darken-4">
+              <h5 class="white-text">Amélie Durand</h5>
+              <span class="white-text">Lorem ipsum dolor sit amet, Duis aute irure dolor in enderit in voluptate veenderit in voluptate velit esse enderit in voluptate velit esse lit esse enderit in voluptate velit esse reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+              </span>
+            </div>
+          </div>
+      </div>
       </div>
     </div>
 
-
+<!--
     <div class="row">
       <div class="col s12">
         <div class="card red darken-4">
@@ -71,9 +80,7 @@
       </div>
     </div>
 
-
-
-
+-->
 
     <div class="row">
         <div class="col m10 offset-m1 s12">
@@ -170,23 +177,9 @@
   </div>
 
 
-  <div class="parallax-container valign-wrapper">
-    <div class="section no-pad-bot">
-      <div class="container">
-        <div class="row center">
-          <h5 class="header col s12 light">A modern responsive front-end framework based on Material Design</h5>
-        </div>
-      </div>
-    </div>
-    <div class="parallax"><img src="assets/images/background3.jpg" alt="Unsplashed background img 3"></div>
-  </div>
-
-  <div class="container-map">
-    <h1>Responsive Map</h1>
-    <div id="map_container"></div>
-    <div id="map"></div>
-  </div>
-
+  <script src='https://maps.googleapis.com/maps/api/js?v=3.exp'></script>
+  <div style='overflow:hidden;height:430px;width:400px;'><div id='gmap_canvas' style='height:430px;width:400px;'></div>
+  <div><small><a href="http://www.embedgooglemaps.com">Google Maps carte sur votre site									Cliquez ici									Visitez notre site Web</a></small></div><div><small><a href="http://youtubeembedcode.com/nl/">Klik hier!</a></small></div><style>#gmap_canvas img{max-width:none!important;background:none!important}</style></div><script type='text/javascript'>function init_map(){var myOptions = {zoom:10,center:new google.maps.LatLng(44.6796539,-0.41448939999997947),mapTypeId: google.maps.MapTypeId.ROADMAP};map = new google.maps.Map(document.getElementById('gmap_canvas'), myOptions);marker = new google.maps.Marker({map: map,position: new google.maps.LatLng(44.6796539,-0.41448939999997947)});infowindow = new google.maps.InfoWindow({content:'<strong>Château Doms</strong><br>10 route de Lagaceye 33640 Portets<br>'});google.maps.event.addListener(marker, 'click', function(){infowindow.open(map,marker);});infowindow.open(map,marker);}google.maps.event.addDomListener(window, 'load', init_map);</script>
 
 <div w3-include-html=".footer.html"></div>
 
