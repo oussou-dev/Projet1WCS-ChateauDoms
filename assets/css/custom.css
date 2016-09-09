@@ -82,3 +82,7 @@ nav .brand-logo {
 .space-20{
   margin-top: -20px;
 }
+.fixed{
+  position: fixed;
+  z-index: 999999;
+}
