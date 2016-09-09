@@ -11,91 +11,161 @@
   <link href="assets/css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
   <link href="assets/css/custom.css" type="text/css" rel="stylesheet" media="screen,projection"/>
   <link href="assets/css/animate.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+<link rel="stylesheet" href="assets/css/gmaps.css" media="screen" title="no title" charset="utf-8">
   <script src="assets/js/w3data.js"></script>
+  <script src="assets/js/gmaps.js"></script>
+
 </head>
 <body>
   <div w3-include-html=".header.html"></div>
 
-<a href="#logo-container" class="scrollToTop btn-floating btn-large waves-effect waves-light red"><i class="material-icons">expand_less</i></a>
 
   <div id="index-banner" class="parallax-container">
     <div class="section no-pad-bot">
       <div class="container">
         <br><br>
-        <h1 class="header center teal-text text-lighten-2">Contactez-Nous !</h1>
+        <h1 class="header center red-text text-darken-4">Contactez-Nous !</h1>
+        <!--
         <div class="row center">
           <h5 class="header col s12 light">A modern responsive front-end framework based on Material Design</h5>
         </div>
         <div class="row center">
           <a href="http://materializecss.com/getting-started.html" id="download-button" class="btn-large waves-effect waves-light teal lighten-1">Get Started</a>
         </div>
+        -->
         <br><br>
 
+        <div class="row center">
+          <a href="#contact" class="waves-effect waves-circle waves-light btn-floating red darken-4 ">
+            <i class="material-icons">play_for_work</i>
+          </a>
+        </div>
+        <br><br>
       </div>
     </div>
     <div class="parallax"><img src="assets/images/fond-home.jpeg" alt="Unsplashed background img 1"></div>
   </div>
 
+  <div class="container" id="contact">
 
-  <div class="container">
-    <div class="section">
 
-      <!--   Icon Section   -->
+    <div class="card ">
       <div class="row">
-        <div class="col s12 m4">
-          <div class="icon-block">
-            <h2 class="center brown-text"><i class="material-icons">flash_on</i></h2>
-            <h5 class="center">Speeds up development</h5>
-
-            <p class="light">We did most of the heavy lifting for you to provide a default stylings that incorporate our custom components. Additionally, we refined animations and transitions to provide a smoother experience for developers.</p>
+        <div class="col s12">
+          <div class="card-image">
+              <img src="assets/images/contact.jpg">
           </div>
-        </div>
-
-        <div class="col s12 m4">
-          <div class="icon-block">
-            <h2 class="center brown-text"><i class="material-icons">group</i></h2>
-            <h5 class="center">User Experience Focused</h5>
-
-            <p class="light">By utilizing elements and principles of Material Design, we were able to create a framework that incorporates components and animations that provide more feedback to users. Additionally, a single underlying responsive system across all platforms allow for a more unified user experience.</p>
-          </div>
-        </div>
-
-        <div class="col s12 m4">
-          <div class="icon-block">
-            <h2 class="center brown-text"><i class="material-icons">settings</i></h2>
-            <h5 class="center">Easy to work with</h5>
-
-            <p class="light">We have provided detailed documentation as well as specific code examples to help new users get started. We are also always open to feedback and can answer any questions a user may have about Materialize.</p>
-          </div>
-        </div>
-      </div>
-
-    </div>
-  </div>
-
-
-  <div class="parallax-container valign-wrapper">
-    <div class="section no-pad-bot">
-      <div class="container">
-        <div class="row center">
-          <h5 class="header col s12 light">A modern responsive front-end framework based on Material Design</h5>
         </div>
       </div>
     </div>
-    <div class="parallax"><img src="assets/images/background2.jpg" alt="Unsplashed background img 2"></div>
-  </div>
 
-  <div class="container">
-    <div class="section">
 
-      <div class="row">
-        <div class="col s12 center">
-          <h3><i class="mdi-content-send brown-text"></i></h3>
-          <h4>Contact Us</h4>
-          <p class="left-align light">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam scelerisque id nunc nec volutpat. Etiam pellentesque tristique arcu, non consequat magna fermentum ac. Cras ut ultricies eros. Maecenas eros justo, ullamcorper a sapien id, viverra ultrices eros. Morbi sem neque, posuere et pretium eget, bibendum sollicitudin lacus. Aliquam eleifend sollicitudin diam, eu mattis nisl maximus sed. Nulla imperdiet semper molestie. Morbi massa odio, condimentum sed ipsum ac, gravida ultrices erat. Nullam eget dignissim mauris, non tristique erat. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae;</p>
+    <div class="row">
+      <div class="col s12">
+        <div class="card red darken-4">
+          <div class="card-content white-text">
+            <span class="card-title">Pour une question ou tout type d'information ...</span>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+          </div>
         </div>
       </div>
+    </div>
 
+
+
+
+
+    <div class="row">
+        <div class="col m10 offset-m1 s12">
+            <!-- <h2 class="center-align">Contactez-nous !</h2> -->
+            <div class="row">
+                <form class="col s12">
+                    <div class="row">
+                        <div class="input-field col m6 s12">
+                            <input id="first_name" type="text" class="validate">
+                            <label for="first_name">Nom</label>
+                        </div>
+                        <div class="input-field col m6 s12">
+                            <input id="last_name" type="text" class="validate">
+                            <label for="last_name">Prénom</label>
+                        </div>
+                    </div>
+                    <div class="row">
+                      <div class="input-field col s6">
+                        <i class="material-icons prefix">email</i>
+                        <input id="icon_telephone" type="tel" class="validate">
+                        <label for="icon_telephone">Email</label>
+                      </div>
+
+                        <div class="input-field col s6">
+                          <i class="material-icons prefix">phone</i>
+                          <input id="icon_telephone" type="tel" class="validate">
+                          <label for="icon_telephone">Téléphone</label>
+                        </div>
+
+
+                    </div>
+
+                    <div class="row">
+                        <div class="input-field col s12">
+                          <i class="material-icons prefix">mode_edit</i>
+                          <textarea id="message" class="materialize-textarea"></textarea>
+                          <label for="message">Message</label>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="input-field col s12">
+                          <label>Comment nous avez-vous trouvé ?</label>
+                          <br/>
+                        </div>
+                        <div class="input-field col m3 s6 center-align">
+                          <input name="group1" type="radio" id="google" />
+                          <label for="google">Google</label>
+                        </div>
+                        <div class="input-field col m3 s6 center-align">
+                          <input name="group1" type="radio" id="magazines" />
+                          <label for="magazines">Magazines</label>
+                        </div>
+                        <div class="input-field col m3 s6 center-align">
+                          <input name="group1" type="radio" id="amis" />
+                          <label for="amis">Amis</label>
+                        </div>
+                        <div class="input-field col m3 s6 center-align">
+                          <input name="group1" type="radio" id="other" />
+                          <label for="other">Autre</label>
+                        </div>
+                    </div>
+                    <br><br>
+                    <div class="divider"></div>
+                    <div class="row">
+                        <div class="input-field col s12">
+                          <label>Comment souhaitez-vous être contacté ?</label>
+                          <br/>
+                        </div>
+                        <div class="input-field col m4 s12 center-align">
+                          <input name="group2" type="checkbox" id="emailComm" />
+                          <label for="emailComm">Email</label>
+                        </div>
+                        <div class="input-field col m4 s12 center-align">
+                          <input name="group2" type="checkbox" id="callComm" />
+                          <label for="callComm">Téléphone</label>
+                        </div>
+                        <div class="input-field col m4 s12 center-align">
+                          <input name="group2" type="checkbox" id="newsletter" />
+                          <label for="newsletter">Newsletter</label>
+                        </div>
+                    </div>
+
+                    <div class="divider"></div>
+                    <div class="row">
+                        <div class="col m12">
+                         <p class="right-align"><button class="btn btn-large waves-effect waves-light" type="button" name="action">Send Message</button></p>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
     </div>
   </div>
 
@@ -111,8 +181,14 @@
     <div class="parallax"><img src="assets/images/background3.jpg" alt="Unsplashed background img 3"></div>
   </div>
 
-<div w3-include-html=".footer.html"></div>
+  <div class="container-map">
+    <h1>Responsive Map</h1>
+    <div id="map_container"></div>
+    <div id="map"></div>
+  </div>
 
+
+<div w3-include-html=".footer.html"></div>
 
   <!--  Scripts-->
   <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
