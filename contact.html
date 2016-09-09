@@ -12,12 +12,28 @@
   <link href="assets/css/custom.css" type="text/css" rel="stylesheet" media="screen,projection"/>
   <link href="assets/css/animate.css" type="text/css" rel="stylesheet" media="screen,projection"/>
 <link rel="stylesheet" href="assets/css/gmaps.css" media="screen" title="no title" charset="utf-8">
-  <script src="assets/js/w3data.js"></script>
   <script src="assets/js/gmaps.js"></script>
 
 </head>
 <body>
-  <div w3-include-html=".header.html"></div>
+  <nav class="white" role="navigation" id="nav-wrapper">
+    <div class="nav-wrapper container">
+      <a id="logo-container" href="index.html" class="brand-logo"><img class="img-logo" src="assets/images/Ch-Dom-Logo1.png" /></a>
+      <ul class="right hide-on-med-and-down">
+        <li><a href="index.html">Accueil</a></li>
+        <li><a href="product.html">Nos Vins</a></li>
+        <li><a href="contact.html">Contactez-Nous</a></li>
+      </ul>
+
+      <ul id="nav-mobile" class="side-nav">
+        <li><a href="index.html">Accueil</a></li>
+        <li><a href="product.html">Nos Vins</a></li>
+        <li><a href="contact.html">Contactez-Nous</a></li>
+      </ul>
+      <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">menu</i></a>
+    </div>
+  </nav>
+
 
 
   <div id="index-banner" class="parallax-container">
@@ -181,17 +197,51 @@
   <div style='overflow:hidden;height:430px;width:400px;'><div id='gmap_canvas' style='height:430px;width:400px;'></div>
   <div><small><a href="http://www.embedgooglemaps.com">Google Maps carte sur votre site									Cliquez ici									Visitez notre site Web</a></small></div><div><small><a href="http://youtubeembedcode.com/nl/">Klik hier!</a></small></div><style>#gmap_canvas img{max-width:none!important;background:none!important}</style></div><script type='text/javascript'>function init_map(){var myOptions = {zoom:10,center:new google.maps.LatLng(44.6796539,-0.41448939999997947),mapTypeId: google.maps.MapTypeId.ROADMAP};map = new google.maps.Map(document.getElementById('gmap_canvas'), myOptions);marker = new google.maps.Marker({map: map,position: new google.maps.LatLng(44.6796539,-0.41448939999997947)});infowindow = new google.maps.InfoWindow({content:'<strong>Château Doms</strong><br>10 route de Lagaceye 33640 Portets<br>'});google.maps.event.addListener(marker, 'click', function(){infowindow.open(map,marker);});infowindow.open(map,marker);}google.maps.event.addDomListener(window, 'load', init_map);</script>
 
-<div w3-include-html=".footer.html"></div>
+
+
+<!--Footer-->
+  <footer class="page-footer red darken-4">
+    <div class="container">
+      <div class="row">
+        <div class="col s6">
+          <h5 class="white-text">Château Doms</h5>
+          <p class="grey-text text-lighten-4">Un superbe domaine familial des Graves, au cœur du vignoble de Bordeaux.</p>
+          <p class="grey-text text-lighten-4">Passionnées par la vigne et le vin, les femmes du Château Doms sont viticultrices de mère en fille depuis cinq générations. Aujourd’hui, Hélène Durand et sa fille Amélie cultivent les vignes dans la tradition et élaborent des vins féminins.</p>
+        </div>
+        <div class="col l3 s12">
+          <h5 class="white-text">Contact</h5>
+            <p class="white-text">
+              SCE Vignobles Parage<br />
+              Château Doms<br />
+              10 route de Lagaceye<br />
+              33640 Portets<br />
+              Tél. : +33 (0)5 56 67 20 12<br />
+              Fax : +33 (0)5 56 67 31 89
+            </p>
+        </div>
+        <div class="col l3 s12">
+          <h5 class="white-text">Menu</h5>
+          <ul>
+            <li><a class="white-text" href="index.html">Accueil</a></li>
+            <li><a class="white-text" href="product.html">Nos Vins</a></li>
+            <li><a class="white-text" href="contact.html">Contactez-Nous</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="footer-copyright">
+      <div class="container">
+        WCS Project : Château Doms // Made with passion by Oussou, Tony & Sebastien
+      </div>
+    </div>
+  </footer>
+
 
   <!--  Scripts-->
   <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
   <script src="assets/js/materialize.js"></script>
   <script src="assets/js/init.js"></script>
   <script src="assets/js/app.js"></script>
-
-  <script>
-    w3IncludeHTML();
-  </script>
 
   </body>
 </html>
