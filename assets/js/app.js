@@ -3,9 +3,9 @@ $(document).ready(function() {
 
 
 // Smooth Scroll
-    $('a[href^="#"]:not(.modal-trigger)').click( function() {
+    $('a[href^="#"]:not(.modal-trigger, .button-collapse)').click( function() {
         $('html, body').animate({
-            scrollTop: $( $(this).attr('href') ).offset().top-0
+            scrollTop: $( $(this).attr('href') ).offset().top-50
         }, 1000);
         return false;
     });
