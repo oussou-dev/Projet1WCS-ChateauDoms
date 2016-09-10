@@ -39,10 +39,10 @@ h6 {
     background-color: #b71c1c;
     color: #eafaf9;
 }
-.red-text.text-darken-4 {
+/*.red-text.text-darken-4 {
     color: #B71C1C !important;
     text-shadow: 1px 1px 1px white;
-}
+}*/
 @media (min-width:768px){
   .modal {
       width: 70%;
@@ -85,4 +85,7 @@ nav .brand-logo {
 .fixed{
   position: fixed;
   z-index: 999999;
+}
+.text-white{
+  text-shadow: 1px 1px 1px black;
 }
