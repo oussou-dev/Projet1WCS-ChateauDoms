@@ -11,10 +11,9 @@
   <link href="assets/css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
   <link href="assets/css/custom.css" type="text/css" rel="stylesheet" media="screen,projection"/>
   <link href="assets/css/animate.css" type="text/css" rel="stylesheet" media="screen,projection"/>
-<link rel="stylesheet" href="assets/css/gmaps.css" media="screen" title="no title" charset="utf-8">
-  <script src="assets/js/gmaps.js"></script>
-
 </head>
+
+
 <body>
   <nav class="white" role="navigation">
     <div class="nav-wrapper container">
@@ -41,15 +40,6 @@
       <div class="container">
         <br><br>
         <h1 class="header center red-text text-darken-4">Contactez-Nous !</h1>
-        <!--
-        <div class="row center">
-          <h5 class="header col s12 light">A modern responsive front-end framework based on Material Design</h5>
-        </div>
-        <div class="row center">
-          <a href="http://materializecss.com/getting-started.html" id="download-button" class="btn-large waves-effect waves-light teal lighten-1">Get Started</a>
-        </div>
-        -->
-        <br><br>
 
         <div class="row center">
           <a href="#contact" class="waves-effect waves-circle waves-light btn-floating red darken-4 ">
@@ -63,25 +53,38 @@
   </div>
 
   <div class="container" id="contact">
+    <div class="card">
 
-
-    <div class="card ">
-      <div class="row">
-        <div class="col s6">
-          <div class="card-image">
-              <img src="assets/images/contact.jpg">
+      <!-- <div class="row"> -->
+        <div class="col s12">
+          <div class="card-panel center-align">
+              <img src="assets/images/contact.jpg" class="responsive-img">
           </div>
         </div>
-        <div class="row">
-          <div class="col s6">
-            <div class="card-panel red darken-4">
-              <h5 class="white-text">Amélie Durand</h5>
-              <span class="white-text">Lorem ipsum dolor sit amet, Duis aute irure dolor in enderit in voluptate veenderit in voluptate velit esse enderit in voluptate velit esse lit esse enderit in voluptate velit esse reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+      <!-- </div> -->
+
+      <div class="row">
+
+        <div class="col s12 m6 l6">
+          <div class="card-panel red darken-3">
+            <h5 class="white-text">Amélie Durand, Œnologue </h5>
+              <span class="white-text">
+                Lorem ipsum dolor sit amet, Duis aute irure dolor in enderit in voluptate veenderit in voluptate velit esse enderit in voluptate velit esse lit esse enderit in voluptate velit esse reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
               </span>
-            </div>
           </div>
+        </div>
+
+        <div class="col s12 m6 l6">
+          <div class="card-panel red accent-1">
+            <h5 class="white-text">Pour nous contacter</h5>
+            <blockquote class="white-text">
+              Remplir le formulaire... <br><br>
+              Nous rendre visite ... <br>
+            </blockquote>
+          </div>
+        </div>
       </div>
-      </div>
+      <!-- </div> -->
     </div>
 
 <!--
@@ -97,6 +100,10 @@
     </div>
 
 -->
+
+  <a href="#logo-container" class="scrollToTop btn-floating btn-large waves-effect waves-light red"><i class="material-icons">expand_less</i></a>
+
+
 
     <div class="row">
         <div class="col m10 offset-m1 s12">
@@ -125,8 +132,6 @@
                           <input id="icon_telephone" type="tel" class="validate">
                           <label for="icon_telephone">Téléphone</label>
                         </div>
-
-
                     </div>
 
                     <div class="row">
@@ -136,6 +141,7 @@
                           <label for="message">Message</label>
                         </div>
                     </div>
+
 
                     <div class="row">
                         <div class="input-field col s12">
@@ -183,7 +189,7 @@
                     <div class="divider"></div>
                     <div class="row">
                         <div class="col m12">
-                         <p class="right-align"><button class="btn btn-large waves-effect waves-light" type="button" name="action">Send Message</button></p>
+                         <p class="right-align"><button class="btn btn-large waves-effect waves-light  red darken-4" type="button" name="action">Send Message</button></p>
                         </div>
                     </div>
                 </form>
@@ -193,13 +199,55 @@
   </div>
 
 
-  <script src='https://maps.googleapis.com/maps/api/js?v=3.exp'></script>
-  <div style='overflow:hidden;height:430px;width:400px;'><div id='gmap_canvas' style='height:430px;width:400px;'></div>
-  <div><small><a href="http://www.embedgooglemaps.com">Google Maps carte sur votre site									Cliquez ici									Visitez notre site Web</a></small></div><div><small><a href="http://youtubeembedcode.com/nl/">Klik hier!</a></small></div><style>#gmap_canvas img{max-width:none!important;background:none!important}</style></div><script type='text/javascript'>function init_map(){var myOptions = {zoom:10,center:new google.maps.LatLng(44.6796539,-0.41448939999997947),mapTypeId: google.maps.MapTypeId.ROADMAP};map = new google.maps.Map(document.getElementById('gmap_canvas'), myOptions);marker = new google.maps.Marker({map: map,position: new google.maps.LatLng(44.6796539,-0.41448939999997947)});infowindow = new google.maps.InfoWindow({content:'<strong>Château Doms</strong><br>10 route de Lagaceye 33640 Portets<br>'});google.maps.event.addListener(marker, 'click', function(){infowindow.open(map,marker);});infowindow.open(map,marker);}google.maps.event.addDomListener(window, 'load', init_map);</script>
+  <!-- Google Maps + Indications -->
 
+    <div class="row">
 
+        <!-- Google Maps -->
+        <div class="col s12 m6 l6">
+          <div class="card-panel red darken-4">
+            <div class="map-responsive">
+              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2836.9569751388813!2d-0.41667808521804117!3d44.67965769346904!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd5517b50c235c43%3A0x6fb24808329db34f!2s10+Chemin+Lagaceye%2C+33640+Portets!5e0!3m2!1sfr!2sfr!4v1473586083157" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+            </div>
+          </div>
+        </div>
 
-<!--Footer-->
+        <!-- Indications -->
+        <div class="col s12 m6 l6">
+          <div class="card-panel">
+
+            <div class="card-panel red accent-1">
+              <span class="white-text">
+                Le Château Doms se situe à Portets à 25 kms au sud de Bordeaux,
+                ville inscrite depuis 2007 à la liste du patrimoine mondial de l’UNESCO.
+              </span>
+            </div>
+
+            <p>
+              <h6 class="">Se rendre au Château Doms depuis Bordeaux</h6>
+              <blockquote>
+                Prendre l’autoroute A62 / E72 en direction de Toulouse <br>
+                Prendre la Sortie 1.1 La brède <br>
+                Continuer sur : D1113 sur 10 kms <br>
+                A la sortie de Portets, prendre à droite : Chemin Lagaceye <br>
+                Après 900 m, tourner à droite, arrivée au Château Doms
+              </blockquote>
+            </p>
+
+            <div class="divider red darken-4"></div>
+
+            <p>
+              <h6>Utilisation d’un GPS</h6>
+              <blockquote>
+                Coordonnées satellites : O : 0° 25’ 12’’ N : 44° 40’ 29’’ <br>
+                Saisir : « Ville » : Portets et « Rue » : Doms ou 10 chemin Lagaceye
+              </blockquote>
+            </p>
+          </div>
+        </div>
+    </div>
+
+  <!--Footer-->
   <footer class="page-footer red darken-4">
     <div class="container">
       <div class="row">
