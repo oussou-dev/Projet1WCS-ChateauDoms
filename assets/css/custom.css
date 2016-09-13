@@ -89,3 +89,10 @@ nav .brand-logo {
 .text-white{
   text-shadow: 1px 1px 1px black;
 }
+@media (max-width: 768px){
+  footer.page-footer .footer-copyright {
+    height: 60px;
+    padding-top: 10px;
+    line-height: 20px;
+  }
+}
