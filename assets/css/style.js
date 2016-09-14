@@ -38,7 +38,7 @@ export default StyleSheet.create({
     },
     "map-responsive": {
         "overflow": "hidden",
-        "paddingBottom": "56.25%",
+        "paddingBottom": "65.3%",
         "position": "relative",
         "height": 0
     },
@@ -48,6 +48,9 @@ export default StyleSheet.create({
         "height": "100%",
         "width": "100%",
         "position": "absolute"
+    },
+    "card-panel-2": {
+        "paddingBottom": 0.5
     },
     "footerpage-footer": {
         "marginTop": 0,
