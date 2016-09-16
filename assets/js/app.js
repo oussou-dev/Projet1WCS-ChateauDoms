@@ -5,7 +5,7 @@ $(document).ready(function() {
     // Smooth Scroll
         $('a[href^="#"]:not(.modal-trigger, .button-collapse)').click( function() {
             $('html, body').animate({
-                scrollTop: $( $(this).attr('href') ).offset().top-64
+                scrollTop: $( $(this).attr('href') ).offset().top-63
             }, 1000)
             return false
         })
