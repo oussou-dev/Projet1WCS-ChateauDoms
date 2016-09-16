@@ -1,5 +1,9 @@
 # Projet1WCS-ChateauDoms
 
+## Description :
+Projet 1 S1/S2 formation Wild Code School
+Réalisé par @sbstnplcn @oussou-dev @llTonyll
+
 ## Stack
   - materialize : http://materializecss.com/getting-started.html
   - url de test : [ici](https://htmlpreview.github.io/?https://raw.githubusercontent.com/sbstnplcn/Projet1WCS-ChateauDoms/master/index.html)
