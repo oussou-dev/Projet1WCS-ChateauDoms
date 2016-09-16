@@ -112,3 +112,6 @@ nav .brand-logo {
     font-size: 2.1rem;
     line-height: 55.5px;
 }
+.left-align{
+  text-align: justify;
+}
