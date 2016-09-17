@@ -48,5 +48,5 @@ Réalisé par @sbstnplcn @oussou-dev @llTonyll
 
 | Home Page | Product Page | Contact Page |
 |:----------:|:-------------:|:------:|
-| <img src="https://github.com/sbstnplcn/Projet1WCS-ChateauDoms/tree/master/screenshots/sc1-1.png" width="400px" height="1000" />   |  <img src="https://github.com/sbstnplcn/Projet1WCS-ChateauDoms/tree/master/screenshots/sc2-1.png" width="400px" height="1000" />   | <img src="https://github.com/sbstnplcn/Projet1WCS-ChateauDoms/tree/master/screenshots/sc3.png" width="400px" height="1000" /> |
+| <img src="https://github.com/sbstnplcn/Projet1WCS-ChateauDoms/blob/master/screenshots/sc1-1.png" width="400px" height="1000" />   |  <img src="https://github.com/sbstnplcn/Projet1WCS-ChateauDoms/blob/master/screenshots/sc2-1.png" width="400px" height="1000" />   | <img src="https://github.com/sbstnplcn/Projet1WCS-ChateauDoms/blob/master/screenshots/sc3.png" width="400px" height="1000" /> |
 
