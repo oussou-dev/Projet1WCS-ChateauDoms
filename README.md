@@ -6,9 +6,9 @@ Réalisé par @sbstnplcn @oussou-dev @llTonyll
 
 ## Stack
   - materialize : http://materializecss.com/getting-started.html
-  - url de test : [ici](https://htmlpreview.github.io/?https://raw.githubusercontent.com/sbstnplcn/Projet1WCS-ChateauDoms/master/index.html)
+  - **Rendu final** : [ici](http://projetwcsdom_ots.surge.sh/)
 
-## 3 pages :
+## 3 pages (voir screenhots en fin de page):
 
   - 1 home page
   - 1 page produit
@@ -25,7 +25,7 @@ Réalisé par @sbstnplcn @oussou-dev @llTonyll
 ## Page Contact :
   - Intégration google map
   - Formulaire de contact
-
+  
 ## Process Git
   - git status
   - git add
@@ -43,3 +43,9 @@ Réalisé par @sbstnplcn @oussou-dev @llTonyll
   - git pull origin master  
     => si a nouveau un bug, recommencer la procédure ou me demander, il y a des possibilité de stash ou autre
   - git push origin master
+
+## ScreenShots
+
+| Home Page | Product Page | Contact Page |
+|:----------:|:-------------:|:------:|
+| <img src="https://github.com/sbstnplcn/Projet1WCS-ChateauDoms/tree/master/assets/screenshots/sc1-1.png" width="400px" height="1000" />   |  <img src="https://github.com/sbstnplcn/Projet1WCS-ChateauDoms/tree/master/assets/screenshots/sc2-1.png" width="400px" height="1000" />   | <img src="https://github.com/sbstnplcn/Projet1WCS-ChateauDoms/tree/master/assets/screenshots/sc3.png" width="400px" height="1000" /> |
